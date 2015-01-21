@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3242A00B1A6EB19000C3A1FA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3242A0091A6EB19000C3A1FA /* RegisterViewController.m */; };
+		3242A00C1A6EB19000C3A1FA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3242A00A1A6EB19000C3A1FA /* RegisterViewController.xib */; };
+		3242A0101A6EC06E00C3A1FA /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242A00E1A6EC06E00C3A1FA /* help.png */; };
+		3242A0111A6EC06E00C3A1FA /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242A00F1A6EC06E00C3A1FA /* help@2x.png */; };
+		3242A0151A6EC29400C3A1FA /* VerifyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3242A0131A6EC29400C3A1FA /* VerifyAccountViewController.m */; };
+		3242A0161A6EC29400C3A1FA /* VerifyAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3242A0141A6EC29400C3A1FA /* VerifyAccountViewController.xib */; };
+		3242A0191A6EC38900C3A1FA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242A0171A6EC38900C3A1FA /* back.png */; };
+		3242A01A1A6EC38900C3A1FA /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242A0181A6EC38900C3A1FA /* back@2x.png */; };
 		32A952431A6D70A800DA3DBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A952421A6D70A800DA3DBC /* main.m */; };
 		32A952461A6D70A800DA3DBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A952451A6D70A800DA3DBC /* AppDelegate.m */; };
 		32A952491A6D70A800DA3DBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A952481A6D70A800DA3DBC /* ViewController.m */; };
@@ -14,6 +22,8 @@
 		32A9524E1A6D70A800DA3DBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A9524D1A6D70A800DA3DBC /* Images.xcassets */; };
 		32A952511A6D70A800DA3DBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A9524F1A6D70A800DA3DBC /* LaunchScreen.xib */; };
 		32A9525D1A6D70A800DA3DBC /* RoboHeartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9525C1A6D70A800DA3DBC /* RoboHeartTests.m */; };
+		32A952691A6D70DF00DA3DBC /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A952671A6D70DF00DA3DBC /* SignupViewController.m */; };
+		32A9526A1A6D70DF00DA3DBC /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A952681A6D70DF00DA3DBC /* SignupViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3242A0081A6EB19000C3A1FA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		3242A0091A6EB19000C3A1FA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		3242A00A1A6EB19000C3A1FA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		3242A00E1A6EC06E00C3A1FA /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		3242A00F1A6EC06E00C3A1FA /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help@2x.png"; sourceTree = "<group>"; };
+		3242A0121A6EC29400C3A1FA /* VerifyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyAccountViewController.h; sourceTree = "<group>"; };
+		3242A0131A6EC29400C3A1FA /* VerifyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyAccountViewController.m; sourceTree = "<group>"; };
+		3242A0141A6EC29400C3A1FA /* VerifyAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyAccountViewController.xib; sourceTree = "<group>"; };
+		3242A0171A6EC38900C3A1FA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		3242A0181A6EC38900C3A1FA /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		32A9523D1A6D70A800DA3DBC /* RoboHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A952411A6D70A800DA3DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A952421A6D70A800DA3DBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,9 @@
 		32A952561A6D70A800DA3DBC /* RoboHeartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboHeartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A9525B1A6D70A800DA3DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A9525C1A6D70A800DA3DBC /* RoboHeartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoboHeartTests.m; sourceTree = "<group>"; };
+		32A952661A6D70DF00DA3DBC /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		32A952671A6D70DF00DA3DBC /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		32A952681A6D70DF00DA3DBC /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3242A00D1A6EC01A00C3A1FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3242A00E1A6EC06E00C3A1FA /* help.png */,
+				3242A00F1A6EC06E00C3A1FA /* help@2x.png */,
+				3242A0171A6EC38900C3A1FA /* back.png */,
+				3242A0181A6EC38900C3A1FA /* back@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		32A952341A6D70A800DA3DBC = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +120,16 @@
 				32A952471A6D70A800DA3DBC /* ViewController.h */,
 				32A952481A6D70A800DA3DBC /* ViewController.m */,
 				32A9524A1A6D70A800DA3DBC /* Main.storyboard */,
+				32A952661A6D70DF00DA3DBC /* SignupViewController.h */,
+				32A952671A6D70DF00DA3DBC /* SignupViewController.m */,
+				32A952681A6D70DF00DA3DBC /* SignupViewController.xib */,
+				3242A0081A6EB19000C3A1FA /* RegisterViewController.h */,
+				3242A0091A6EB19000C3A1FA /* RegisterViewController.m */,
+				3242A00A1A6EB19000C3A1FA /* RegisterViewController.xib */,
+				3242A0121A6EC29400C3A1FA /* VerifyAccountViewController.h */,
+				3242A0131A6EC29400C3A1FA /* VerifyAccountViewController.m */,
+				3242A0141A6EC29400C3A1FA /* VerifyAccountViewController.xib */,
+				3242A00D1A6EC01A00C3A1FA /* Images */,
 				32A9524D1A6D70A800DA3DBC /* Images.xcassets */,
 				32A9524F1A6D70A800DA3DBC /* LaunchScreen.xib */,
 				32A952401A6D70A800DA3DBC /* Supporting Files */,
@@ -200,7 +244,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A9524C1A6D70A800DA3DBC /* Main.storyboard in Resources */,
+				3242A0161A6EC29400C3A1FA /* VerifyAccountViewController.xib in Resources */,
+				3242A0191A6EC38900C3A1FA /* back.png in Resources */,
+				3242A00C1A6EB19000C3A1FA /* RegisterViewController.xib in Resources */,
+				3242A0101A6EC06E00C3A1FA /* help.png in Resources */,
 				32A952511A6D70A800DA3DBC /* LaunchScreen.xib in Resources */,
+				3242A0111A6EC06E00C3A1FA /* help@2x.png in Resources */,
+				3242A01A1A6EC38900C3A1FA /* back@2x.png in Resources */,
+				32A9526A1A6D70DF00DA3DBC /* SignupViewController.xib in Resources */,
 				32A9524E1A6D70A800DA3DBC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3242A00B1A6EB19000C3A1FA /* RegisterViewController.m in Sources */,
+				3242A0151A6EC29400C3A1FA /* VerifyAccountViewController.m in Sources */,
 				32A952491A6D70A800DA3DBC /* ViewController.m in Sources */,
 				32A952461A6D70A800DA3DBC /* AppDelegate.m in Sources */,
+				32A952691A6D70DF00DA3DBC /* SignupViewController.m in Sources */,
 				32A952431A6D70A800DA3DBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +466,7 @@
 				32A952621A6D70A800DA3DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32A952631A6D70A800DA3DBC /* Build configuration list for PBXNativeTarget "RoboHeartTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +475,7 @@
 				32A952651A6D70A800DA3DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
